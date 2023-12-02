@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Blackmagic';
+  src: url(Fonts/Pieces\ of\ Eight.woff);
+}
+
+@font-face {
+  font-family: 'Blackmagic_alt';
+  src: url(Fonts/Pieces\ of\ Eight\ Alt.woff);
+}
+
+:root{
+  --black-magic: 'Blackmagic';
+  --black-magic-alt: 'Blackmagic_alt';
+}
+
+h1{
+  font-family: var(--black-magic);
+  font-size: 3vw;
+  letter-spacing: 1px;
+  color: #4deeea;
+}
+
+span{
+  font-family: var(--black-magic);
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #4deeea;   
+}
+
+input{
+  font-family: var(--black-magic);
+  font-size: 1.5vw ;
+  letter-spacing: 1px;
+  background-color: transparent ;
+}
+
+.sign-in .details{
+  font-size: 2vw ;
+}
+
+.morph{
+  background-color: transparent;
+  box-shadow: 2000px 1000px 60px #00000040,
+       inset -2000px -1000px 60px #ffffff40;
+}
+
+.morph_input{
+  background-color: #ffffff66;
+  backdrop-filter: blur(10px);
+}
+
+input::placeholder{
+  color: rgb(22, 22, 22);
+}
+
+.for_get{
+  font-family: var(--black-magic);
+  font-size: 1.5vw ;
+  letter-spacing: 1px;
+  color: #4deeea ;  
+}
+
+.morph_button{
+  background-color: #ff000060 ;
+  backdrop-filter: blur(10px);
+  border: 2px solid #ff000020 !important;
+  font-family: var(--black-magic);
+  letter-spacing: 3px;
+}
